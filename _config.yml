@@ -2,8 +2,8 @@
 ## Configuration file for Jekyll generator
 ##
 
-## path to site root directory
-source: src
+## Path to site root directory. GitHub limits it to 'docs' subdirectory.
+source: docs
 
 
 ##
