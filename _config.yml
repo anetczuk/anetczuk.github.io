@@ -1,0 +1,13 @@
+##
+## Configuration file for Jekyll generator
+##
+
+## path to site root directory
+source: src
+
+
+##
+## Site variables
+##
+
+site_title: Site Title
