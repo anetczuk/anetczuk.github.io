@@ -7,10 +7,12 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 ROOT_DIR=${SCRIPT_DIR}/..
 
+SITE_DIR=${ROOT_DIR}/docs
+
 BUILD_DIR=${ROOT_DIR}/tmp/local
 
 
-cd ${ROOT_DIR}
+cd ${SITE_DIR}
 
 
 mkdir -p ${BUILD_DIR}

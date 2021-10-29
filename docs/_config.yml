@@ -1,1 +1,15 @@
+##
+## Configuration file for Jekyll generator
+##
+
+## Path to site root directory. GitHub limits it to 'docs' subdirectory.
+# source: docs
+
 theme: jekyll-theme-minimal
+
+
+##
+## Site variables
+##
+
+site_title: Site Title
