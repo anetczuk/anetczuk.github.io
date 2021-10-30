@@ -1,6 +1,6 @@
 ---
-title: My post
+title: Maintenance
 ---
-# Example
+# {{page.title}}
 
-Hello world: {{page.title}} on {{site.site_title}}
+{{site.site_title}} is under construction 
