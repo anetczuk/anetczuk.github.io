@@ -4,6 +4,7 @@ import sys, os
 import logging
 import pathlib
 import csv
+import datetime
  
 from pandas import DataFrame
 
@@ -186,11 +187,13 @@ Following page presents list of published repositories divided into few categori
     <th style="text-align:center">Stars</th>
 </tr>\n"""
     for row in rowsList:
+        pushDate = row[ "push_date" ]
+        pushDate = datetime.datetime.strptime( pushDate, "%Y-%m-%dT%H:%M:%SZ" )
         output_content += """<tr>
         <td><a href="{1}/{0}">{0}</a></td>
         <td>{2}</td> <td style="text-align:center">{3}</td>
         <td style="text-align:center">{4}</td>
-</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, row[ "push_date" ], row[ "commits" ], row[ "stars" ] )
+</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, pushDate, row[ "commits" ], row[ "stars" ] )
     output_content += """</table>\n"""
     
 

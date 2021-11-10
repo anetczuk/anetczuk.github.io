@@ -271,162 +271,162 @@ Table with repositories:
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/LinakDeskApp">LinakDeskApp</a></td>
-        <td>2021-11-08T00:23:53Z</td> <td style="text-align:center">235</td>
+        <td>2021-11-08 00:23:53</td> <td style="text-align:center">235</td>
         <td style="text-align:center">100</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/stock-monitor">stock-monitor</a></td>
-        <td>2021-11-07T23:24:10Z</td> <td style="text-align:center">415</td>
+        <td>2021-11-07 23:24:10</td> <td style="text-align:center">415</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/rsscast">rsscast</a></td>
-        <td>2021-11-05T23:46:20Z</td> <td style="text-align:center">80</td>
+        <td>2021-11-05 23:46:20</td> <td style="text-align:center">80</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/pybrain">pybrain</a></td>
-        <td>2021-10-31T22:14:04Z</td> <td style="text-align:center">12</td>
+        <td>2021-10-31 22:14:04</td> <td style="text-align:center">12</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/pybrain-exercises">pybrain-exercises</a></td>
-        <td>2021-10-31T22:12:31Z</td> <td style="text-align:center">23</td>
+        <td>2021-10-31 22:12:31</td> <td style="text-align:center">23</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
-        <td>2021-10-30T21:47:09Z</td> <td style="text-align:center">10</td>
+        <td>2021-10-30 21:47:09</td> <td style="text-align:center">10</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/work-log">work-log</a></td>
-        <td>2021-09-29T22:10:37Z</td> <td style="text-align:center">74</td>
+        <td>2021-09-29 22:10:37</td> <td style="text-align:center">74</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ClevoKeyboardControl">ClevoKeyboardControl</a></td>
-        <td>2021-09-29T19:37:52Z</td> <td style="text-align:center">69</td>
+        <td>2021-09-29 19:37:52</td> <td style="text-align:center">69</td>
         <td style="text-align:center">9</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/dk-mage">dk-mage</a></td>
-        <td>2021-09-28T21:31:37Z</td> <td style="text-align:center">474</td>
+        <td>2021-09-28 21:31:37</td> <td style="text-align:center">474</td>
         <td style="text-align:center">1</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ADiKtEd">ADiKtEd</a></td>
-        <td>2021-08-30T19:28:18Z</td> <td style="text-align:center">11</td>
+        <td>2021-08-30 19:28:18</td> <td style="text-align:center">11</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ros-self-balancer-playground">ros-self-balancer-playground</a></td>
-        <td>2021-05-19T20:27:16Z</td> <td style="text-align:center">71</td>
+        <td>2021-05-19 20:27:16</td> <td style="text-align:center">71</td>
         <td style="text-align:center">5</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/hanlendar">hanlendar</a></td>
-        <td>2021-03-18T20:22:56Z</td> <td style="text-align:center">260</td>
+        <td>2021-03-18 20:22:56</td> <td style="text-align:center">260</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ReverseCRC">ReverseCRC</a></td>
-        <td>2020-10-03T23:43:59Z</td> <td style="text-align:center">75</td>
+        <td>2020-10-03 23:43:59</td> <td style="text-align:center">75</td>
         <td style="text-align:center">2</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/linak_bt_desk">linak_bt_desk</a></td>
-        <td>2020-05-31T21:14:36Z</td> <td style="text-align:center">56</td>
+        <td>2020-05-31 21:14:36</td> <td style="text-align:center">56</td>
         <td style="text-align:center">12</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/BluetoothGattMitm">BluetoothGattMitm</a></td>
-        <td>2020-05-27T11:35:59Z</td> <td style="text-align:center">36</td>
+        <td>2020-05-27 11:35:59</td> <td style="text-align:center">36</td>
         <td style="text-align:center">6</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/little-ted">little-ted</a></td>
-        <td>2020-04-13T21:59:24Z</td> <td style="text-align:center">18</td>
+        <td>2020-04-13 21:59:24</td> <td style="text-align:center">18</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/cpp-memory-performance">cpp-memory-performance</a></td>
-        <td>2020-01-16T23:30:04Z</td> <td style="text-align:center">141</td>
+        <td>2020-01-16 23:30:04</td> <td style="text-align:center">141</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/image-drawer-2d">image-drawer-2d</a></td>
-        <td>2020-01-03T23:38:22Z</td> <td style="text-align:center">73</td>
+        <td>2020-01-03 23:38:22</td> <td style="text-align:center">73</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ros-robotic-arm-playground">ros-robotic-arm-playground</a></td>
-        <td>2019-08-21T22:51:54Z</td> <td style="text-align:center">13</td>
+        <td>2019-08-21 22:51:54</td> <td style="text-align:center">13</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/pybraingym">pybraingym</a></td>
-        <td>2019-08-12T23:17:18Z</td> <td style="text-align:center">84</td>
+        <td>2019-08-12 23:17:18</td> <td style="text-align:center">84</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/qt-test-utils">qt-test-utils</a></td>
-        <td>2019-08-10T21:09:22Z</td> <td style="text-align:center">99</td>
+        <td>2019-08-10 21:09:22</td> <td style="text-align:center">99</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/thunderbird-webmail">thunderbird-webmail</a></td>
-        <td>2018-12-29T21:50:44Z</td> <td style="text-align:center">42</td>
+        <td>2018-12-29 21:50:44</td> <td style="text-align:center">42</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/MemoryMap">MemoryMap</a></td>
-        <td>2018-04-13T23:28:52Z</td> <td style="text-align:center">139</td>
+        <td>2018-04-13 23:28:52</td> <td style="text-align:center">139</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/DistributedSort">DistributedSort</a></td>
-        <td>2018-03-03T19:13:28Z</td> <td style="text-align:center">18</td>
+        <td>2018-03-03 19:13:28</td> <td style="text-align:center">18</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/SpiSlave">SpiSlave</a></td>
-        <td>2018-02-24T22:48:04Z</td> <td style="text-align:center">24</td>
+        <td>2018-02-24 22:48:04</td> <td style="text-align:center">24</td>
         <td style="text-align:center">1</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/WebToPDF">WebToPDF</a></td>
-        <td>2017-12-13T00:02:46Z</td> <td style="text-align:center">16</td>
+        <td>2017-12-13 00:02:46</td> <td style="text-align:center">16</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ImageProcessingService">ImageProcessingService</a></td>
-        <td>2017-12-08T22:20:16Z</td> <td style="text-align:center">8</td>
+        <td>2017-12-08 22:20:16</td> <td style="text-align:center">8</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/restore-config">restore-config</a></td>
-        <td>2017-05-18T19:54:46Z</td> <td style="text-align:center">4</td>
+        <td>2017-05-18 19:54:46</td> <td style="text-align:center">4</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/WebSlideshow">WebSlideshow</a></td>
-        <td>2017-04-06T21:36:12Z</td> <td style="text-align:center">38</td>
+        <td>2017-04-06 21:36:12</td> <td style="text-align:center">38</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/AppDrawer">AppDrawer</a></td>
-        <td>2016-07-20T03:35:37Z</td> <td style="text-align:center"></td>
+        <td>2016-07-20 03:35:37</td> <td style="text-align:center"></td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ReinforcedAgent">ReinforcedAgent</a></td>
-        <td>2016-06-06T19:22:25Z</td> <td style="text-align:center">4</td>
+        <td>2016-06-06 19:22:25</td> <td style="text-align:center">4</td>
         <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/boost_utf_dependency">boost_utf_dependency</a></td>
-        <td>2013-04-06T13:34:16Z</td> <td style="text-align:center">13</td>
+        <td>2013-04-06 13:34:16</td> <td style="text-align:center">13</td>
         <td style="text-align:center"></td>
 </tr>
 </table>
