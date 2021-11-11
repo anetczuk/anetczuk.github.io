@@ -134,15 +134,13 @@ Following page presents list of published repositories divided into few categori
     output_content += """Repositories are also presented in form of <a href="#repos_table">sortable table</a>"""
     
     output_content += "\n\n"
-    output_content += "---"
-    output_content += "\n\n"
     
-    output_content += "Categories:\n\n"
+    output_content += "## Categories:\n\n"
     
     ## generate content
     for cat in categoriesList:
         category_anchor = section_link_id( cat, "cat_" )
-        output_content += """## <a name="{1}"></a> {0}\n\n""".format( cat, category_anchor )
+        output_content += """### <a name="{1}"></a> {0}\n\n""".format( cat, category_anchor )
         items = categoriesMap.items( cat )
         if items is None or len(items) < 1:
             continue
@@ -170,14 +168,12 @@ Following page presents list of published repositories divided into few categori
             output_content += """[{0}]({1}/{0})<br/>\n{2}{3}{4}\n\n""".format( item_name, GITHUB_PROFILE_LINK, item_summary, commits_entry, stars_entry )
 
     output_content += "\n\n"
-    output_content += "---"
-    output_content += "\n\n"
 
     #### generate table -- GitHub markdown does not support sorted tables, so it's needed to use HTML directly
-    output_content += "Table with repositories:\n"
+    output_content += "## Repositories table\n"
     
     ## sortable taken from: https://www.kryogenix.org/code/browser/sorttable    
-    output_content += """<script src="sorttable.js"></script>\n"""
+    output_content += """<script src="/js/sorttable.js"></script>\n"""
     output_content += """<a name="repos_table"></a>\n"""
     output_content += """<table class="sortable">\n"""
     output_content += """<tr>
