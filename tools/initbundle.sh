@@ -13,7 +13,7 @@ SITE_DIR=${ROOT_DIR}/docs
 BUILD_DIR=${ROOT_DIR}/tmp/local
 
 
-mkdir -p ${BUILD_DIR
+mkdir -p ${BUILD_DIR}
 
 cd ${BUILD_DIR}
 
