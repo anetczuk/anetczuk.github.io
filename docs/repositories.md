@@ -27,11 +27,9 @@ Non-exclusive categories:
 
 Repositories are also presented in form of <a href="#repos_table">sortable table</a>
 
----
+## Categories:
 
-Categories:
-
-## <a name="cat_c++"></a> C++
+### <a name="cat_c++"></a> C++
 
 [dk-mage](https://github.com/anetczuk/dk-mage)<br/>
 Generate maps for Dungeon Keeper 1 PC game<br/>
@@ -58,13 +56,13 @@ commits: 8
 Boost Unit Test automatic registration facility for dependencies between tests.<br/>
 commits: 13
 
-## <a name="cat_c"></a> C
+### <a name="cat_c"></a> C
 
 [MemoryMap](https://github.com/anetczuk/MemoryMap)<br/>
 Implementation of red-black tree in form of memory map<br/>
 commits: 139
 
-## <a name="cat_hardware_related"></a> Hardware related
+### <a name="cat_hardware_related"></a> Hardware related
 
 [ReverseCRC](https://github.com/anetczuk/ReverseCRC)<br/>
 Finding polynomial, init and xor values of CRC.<br/>
@@ -85,7 +83,7 @@ Software implementation of SPI slave mode for Raspberry Pi<br/>
 commits: 24<br/>
 stars: 1
 
-## <a name="cat_python"></a> Python
+### <a name="cat_python"></a> Python
 
 [LinakDeskApp](https://github.com/anetczuk/LinakDeskApp)<br/>
 Desktop application that allows control of Linak office desk under Linux<br/>
@@ -170,7 +168,7 @@ commits: 4
 Play images slideshow directly from popular web galleries.<br/>
 commits: 38
 
-## <a name="cat_reinforcement_learning"></a> Reinforcement learning
+### <a name="cat_reinforcement_learning"></a> Reinforcement learning
 
 [pybrain-exercises](https://github.com/anetczuk/pybrain-exercises)<br/>
 Exercises with pybrain -- Python machine learning library<br/>
@@ -184,7 +182,7 @@ commits: 84
 Implementation of reinforcement learning algorithms based on book of R. S. Sutton and A. Barto.<br/>
 commits: 4
 
-## <a name="cat_ros"></a> ROS
+### <a name="cat_ros"></a> ROS
 
 [ros-self-balancer-playground](https://github.com/anetczuk/ros-self-balancer-playground)<br/>
 Two wheeled balancing robot playground with ROS and Gazebo<br/>
@@ -195,7 +193,7 @@ stars: 5
 Robotic arm simulation with ROS and Gazebo<br/>
 commits: 13
 
-## <a name="cat_qt"></a> Qt
+### <a name="cat_qt"></a> Qt
 
 [LinakDeskApp](https://github.com/anetczuk/LinakDeskApp)<br/>
 Desktop application that allows control of Linak office desk under Linux<br/>
@@ -227,13 +225,13 @@ commits: 18
 Extensions to Qt Test and Qt Quick Test testing frameworks, and tools for qmake<br/>
 commits: 99
 
-## <a name="cat_other"></a> Other
+### <a name="cat_other"></a> Other
 
 [anetczuk.github.io](https://github.com/anetczuk/anetczuk.github.io)<br/>
 Webpage repository<br/>
 commits: 10
 
-## <a name="cat_fork"></a> Fork
+### <a name="cat_fork"></a> Fork
 
 [pybrain](https://github.com/anetczuk/pybrain)<br/>
 PyBrain -- the Python Machine Learning Library<br/>
@@ -257,10 +255,8 @@ App Drawer for Android
 
 
 
----
-
-Table with repositories:
-<script src="sorttable.js"></script>
+## Repositories table
+<script src="/js/sorttable.js"></script>
 <a name="repos_table"></a>
 <table class="sortable">
 <tr>
