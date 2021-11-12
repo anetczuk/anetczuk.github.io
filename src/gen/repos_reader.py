@@ -3,6 +3,9 @@
 import sys, os
 import logging
 import csv
+import subprocess
+
+import tempfile
 
 import requests
 import requests_file
@@ -35,7 +38,7 @@ def read_repositories():
         _LOGGER.error( "message: %s status: %s", userData["message"], userJson.status_code )
         return
 
-    header = [ 'name', 'category', 'summary', 'create_date', 'push_date', 'stars', 'commits' ]
+    header = [ 'name', 'category', 'summary', 'create_date', 'push_date', 'stars', 'commits', 'loc' ]
     
     with open( OUTPUT_CSV, 'w', encoding='UTF8' ) as csv_file:
         writer = csv.writer( csv_file, delimiter=',', quoting=csv.QUOTE_ALL )
@@ -56,31 +59,61 @@ def read_repositories():
             stars = item["stargazers_count"]
             if stars < 1:
                 stars = ""
-                
+            
             ## read commits number
+            commitsNum = ""
             contribUrl = "https://api.github.com/repos/anetczuk/{}/stats/contributors".format( repoName )
             contribJson = read_url_response( contribUrl )
             contribData = json.loads( contribJson.text )
-            
+             
             if contribJson.status_code != 200:
+                print( "data:", contribData )
                 _LOGGER.error( "message: %s status: %s", contribData["message"], contribJson.status_code )
                 return
-            
-            commitsNum = ""
+             
             for commiterData in contribData:
                 authorData = commiterData['author']
                 authorName = authorData['login']
                 if authorName == "anetczuk":
                     commitsNum = commiterData['total']
                     break
-                    
-            row = [ item["name"], category, item["description"], created_at, pushed_at, stars, commitsNum ]
+            
+            ## clone repository and count lines
+            linesOfCode = ""
+            forked = item["fork"]
+            if forked is False:
+                clone_url = item["clone_url"]
+                linesOfCode = count_lines( clone_url )
+            
+            row = [ item["name"], category, item["description"], created_at, pushed_at, stars, commitsNum, linesOfCode ]
             _LOGGER.info( "item found: %s", row )
             writer.writerow( row )
         
         _LOGGER.info( "output stored to file: %s", OUTPUT_CSV )
 
     _LOGGER.info( "done" )
+
+
+def count_lines( repoUrl ):
+    _LOGGER.info( "counting lines for: %s", repoUrl )
+    with tempfile.TemporaryDirectory() as tmpdirname:
+        git_command = """git clone --depth 1 {} {}""".format( repoUrl, tmpdirname )
+        cloneResult = subprocess.run( git_command, shell=True )
+        if cloneResult.returncode != 0:
+            _LOGGER.warning( "unable to clone repository: %s", repoUrl )
+            return ""
+        
+        cloc_command="""cloc --exclude-lang=HTML --exclude-dir=doc,lib,libs,external,build --json {0}""".format( tmpdirname )
+        clocResult = subprocess.run( cloc_command, shell=True, stdout=subprocess.PIPE )
+        if clocResult.returncode != 0:
+            _LOGGER.warning( "unable to cloc repository: %s", repoUrl )
+            return ""
+    
+        clocData = json.loads( clocResult.stdout )
+        linesOfCode = clocData['SUM']['code']
+        return linesOfCode
+
+    return ""
 
 
 def append_string( data1, data2, separator ):

@@ -156,6 +156,7 @@ Following page presents list of published repositories divided into few categori
             item_summary    = row['summary']
             item_stars      = row.get( "stars", 0 )
             item_commits    = row.get( "commits", 0 )
+            item_loc        = row.get( "loc", 0 )
             
             commits_entry = ""
             if len( item_commits ) > 0:
@@ -164,8 +165,12 @@ Following page presents list of published repositories divided into few categori
             stars_entry = ""
             if len( item_stars ) > 0:
                 stars_entry = """<br/>\nstars: {0}""".format( item_stars )
+            
+            loc_entry = ""
+            if len( item_loc ) > 0:
+                loc_entry = """<br/>\nlines of code: {0}""".format( item_loc )
 
-            output_content += """[{0}]({1}/{0})<br/>\n{2}{3}{4}\n\n""".format( item_name, GITHUB_PROFILE_LINK, item_summary, commits_entry, stars_entry )
+            output_content += """[{0}]({1}/{0})<br/>\n{2}{3}{4}{5}\n\n""".format( item_name, GITHUB_PROFILE_LINK, item_summary, commits_entry, stars_entry, loc_entry )
 
     output_content += "\n\n"
 
@@ -181,6 +186,7 @@ Following page presents list of published repositories divided into few categori
     <th>Last commit</th>
     <th style="text-align:center">Commits</th>
     <th style="text-align:center">Stars</th>
+    <th style="text-align:center">Lines of code</th>
 </tr>\n"""
     for row in rowsList:
         pushDate = row[ "push_date" ]
@@ -189,7 +195,8 @@ Following page presents list of published repositories divided into few categori
         <td><a href="{1}/{0}">{0}</a></td>
         <td>{2}</td> <td style="text-align:center">{3}</td>
         <td style="text-align:center">{4}</td>
-</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, pushDate, row[ "commits" ], row[ "stars" ] )
+        <td style="text-align:center">{5}</td>
+</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, pushDate, row[ "commits" ], row[ "stars" ], row[ "loc" ] )
     output_content += """</table>\n"""
     
 
