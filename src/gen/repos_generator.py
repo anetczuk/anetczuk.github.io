@@ -212,12 +212,12 @@ Following page presents list of published repositories divided into few categori
             stars_sum += int( stars )
         if len(locs) > 0:
             loc_sum += int( locs )
-    output_content += """\n<tbody>\n"""
+    output_content += """\n</tbody>\n"""
     output_content += """<tfoot> <tr>
       <th id="total" colspan="2" style="text-align:right">Total:</th>
-      <td style="text-align:center">{}</td>
-      <td style="text-align:center">{}</td>
-      <td style="text-align:center">{}</td>
+      <th style="text-align:center">{}</th>
+      <th style="text-align:center">{}</th>
+      <th style="text-align:center">{}</th>
 </tr> </tfoot>""".format( commits_sum, stars_sum, loc_sum )
     output_content += """</table>\n"""
     

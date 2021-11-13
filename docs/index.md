@@ -504,10 +504,10 @@ App Drawer for Android
         <td style="text-align:center">1979</td>
 </tr>
 
-<tbody>
+</tbody>
 <tfoot> <tr>
       <th id="total" colspan="2" style="text-align:right">Total:</th>
-      <td style="text-align:center">2644</td>
-      <td style="text-align:center">136</td>
-      <td style="text-align:center">93090</td>
+      <th style="text-align:center">2644</th>
+      <th style="text-align:center">136</th>
+      <th style="text-align:center">93090</th>
 </tr> </tfoot></table>
