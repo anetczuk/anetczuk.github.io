@@ -1,4 +1,6 @@
 ---
+layout: default
+home: true
 ---
 
 [comment]: #

@@ -87,10 +87,12 @@ def generate_description( configDict, dataMatrix, outputDir ):
 
     ### === file header ===
     input_file  = configDict[ "input_file" ]
-    output_name = "repositories.md"
+    output_name = "index.md"
 
     output_content += \
 """---
+layout: default
+home: true
 ---
 
 %(file_preamble_info)s
