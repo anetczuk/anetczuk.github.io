@@ -183,14 +183,21 @@ Following page presents list of published repositories divided into few categori
     output_content += """<script src="/js/sorttable.js"></script>\n"""
     output_content += """<a name="repos_table"></a>\n"""
     output_content += """<table class="sortable">\n"""
-    output_content += """<tr>
+    output_content += """<thead> <tr>
     <th>Repository</th>
     <th>Last commit</th>
     <th style="text-align:center">Commits</th>
     <th style="text-align:center">Stars</th>
     <th style="text-align:center">Lines of code</th>
-</tr>\n"""
+</tr> </thead>\n<tbody>\n"""
+
+    commits_sum = 0
+    stars_sum = 0
+    loc_sum = 0
     for row in rowsList:
+        commits = row[ "commits" ]
+        stars = row[ "stars" ]
+        locs = row[ "loc" ]
         pushDate = row[ "push_date" ]
         pushDate = datetime.datetime.strptime( pushDate, "%Y-%m-%dT%H:%M:%SZ" )
         output_content += """<tr>
@@ -198,7 +205,20 @@ Following page presents list of published repositories divided into few categori
         <td>{2}</td> <td style="text-align:center">{3}</td>
         <td style="text-align:center">{4}</td>
         <td style="text-align:center">{5}</td>
-</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, pushDate, row[ "commits" ], row[ "stars" ], row[ "loc" ] )
+</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, pushDate, commits, stars, locs )
+        if len(commits) > 0:
+            commits_sum += int( commits )
+        if len(stars) > 0:
+            stars_sum += int( stars )
+        if len(locs) > 0:
+            loc_sum += int( locs )
+    output_content += """\n<tbody>\n"""
+    output_content += """<tfoot> <tr>
+      <th id="total" colspan="2" style="text-align:right">Total:</th>
+      <td style="text-align:center">{}</td>
+      <td style="text-align:center">{}</td>
+      <td style="text-align:center">{}</td>
+</tr> </tfoot>""".format( commits_sum, stars_sum, loc_sum )
     output_content += """</table>\n"""
     
 
