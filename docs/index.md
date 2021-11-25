@@ -52,7 +52,7 @@ lines of code: 3202
 [qt-test-utils](https://github.com/anetczuk/qt-test-utils)<br/>
 Extensions to Qt Test and Qt Quick Test testing frameworks, and tools for qmake<br/>
 commits: 99<br/>
-lines of code: 2642
+lines of code: 2508
 
 [ImageProcessingService](https://github.com/anetczuk/ImageProcessingService)<br/>
 Example of image processing using OpenCV primitives<br/>
@@ -69,7 +69,7 @@ lines of code: 1979
 [MemoryMap](https://github.com/anetczuk/MemoryMap)<br/>
 Implementation of red-black tree in form of memory map<br/>
 commits: 139<br/>
-lines of code: 6239
+lines of code: 6251
 
 ### <a name="cat_hardware_related"></a> Hardware related
 
@@ -82,7 +82,7 @@ lines of code: 3218
 [BluetoothGattMitm](https://github.com/anetczuk/BluetoothGattMitm)<br/>
 Revealing unknown GATT/BLE protocol by mediation in communication between device and client<br/>
 commits: 36<br/>
-stars: 6<br/>
+stars: 7<br/>
 lines of code: 2100
 
 [cpp-memory-performance](https://github.com/anetczuk/cpp-memory-performance)<br/>
@@ -101,7 +101,7 @@ lines of code: 748
 [LinakDeskApp](https://github.com/anetczuk/LinakDeskApp)<br/>
 Desktop application that allows control of Linak office desk under Linux<br/>
 commits: 235<br/>
-stars: 100<br/>
+stars: 101<br/>
 lines of code: 5184
 
 [stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
@@ -155,7 +155,7 @@ stars: 12
 [BluetoothGattMitm](https://github.com/anetczuk/BluetoothGattMitm)<br/>
 Revealing unknown GATT/BLE protocol by mediation in communication between device and client<br/>
 commits: 36<br/>
-stars: 6<br/>
+stars: 7<br/>
 lines of code: 2100
 
 [little-ted](https://github.com/anetczuk/little-ted)<br/>
@@ -166,7 +166,7 @@ lines of code: 690
 [ros-robotic-arm-playground](https://github.com/anetczuk/ros-robotic-arm-playground)<br/>
 Robotic arm simulation with ROS and Gazebo<br/>
 commits: 13<br/>
-lines of code: 905
+lines of code: 927
 
 [pybraingym](https://github.com/anetczuk/pybraingym)<br/>
 OpenAI's Gym interface for PyBrain reinforcement learning algorithms<br/>
@@ -227,14 +227,14 @@ lines of code: 3101
 [ros-robotic-arm-playground](https://github.com/anetczuk/ros-robotic-arm-playground)<br/>
 Robotic arm simulation with ROS and Gazebo<br/>
 commits: 13<br/>
-lines of code: 905
+lines of code: 927
 
 ### <a name="cat_qt"></a> Qt
 
 [LinakDeskApp](https://github.com/anetczuk/LinakDeskApp)<br/>
 Desktop application that allows control of Linak office desk under Linux<br/>
 commits: 235<br/>
-stars: 100<br/>
+stars: 101<br/>
 lines of code: 5184
 
 [stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
@@ -266,14 +266,14 @@ lines of code: 690
 [qt-test-utils](https://github.com/anetczuk/qt-test-utils)<br/>
 Extensions to Qt Test and Qt Quick Test testing frameworks, and tools for qmake<br/>
 commits: 99<br/>
-lines of code: 2642
+lines of code: 2508
 
 ### <a name="cat_other"></a> Other
 
 [anetczuk.github.io](https://github.com/anetczuk/anetczuk.github.io)<br/>
 Webpage repository<br/>
-commits: 19<br/>
-lines of code: 3605
+commits: 21<br/>
+lines of code: 4295
 
 ### <a name="cat_fork"></a> Fork
 
@@ -314,14 +314,14 @@ App Drawer for Android
 <tbody>
 <tr>
         <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
-        <td>2018-06-13 18:26:01</td> <td>2021-11-11 23:22:37</td> <td style="text-align:center">19</td>
+        <td>2018-06-13 18:26:01</td> <td>2021-11-11 23:22:37</td> <td style="text-align:center">21</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">3605</td>
+        <td style="text-align:center">4295</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/LinakDeskApp">LinakDeskApp</a></td>
         <td>2018-09-10 22:43:05</td> <td>2021-11-08 00:23:53</td> <td style="text-align:center">235</td>
-        <td style="text-align:center">100</td>
+        <td style="text-align:center">101</td>
         <td style="text-align:center">5184</td>
 </tr>
 <tr>
@@ -399,7 +399,7 @@ App Drawer for Android
 <tr>
         <td><a href="https://github.com/anetczuk/BluetoothGattMitm">BluetoothGattMitm</a></td>
         <td>2018-09-29 20:11:24</td> <td>2020-05-27 11:35:59</td> <td style="text-align:center">36</td>
-        <td style="text-align:center">6</td>
+        <td style="text-align:center">7</td>
         <td style="text-align:center">2100</td>
 </tr>
 <tr>
@@ -424,7 +424,7 @@ App Drawer for Android
         <td><a href="https://github.com/anetczuk/ros-robotic-arm-playground">ros-robotic-arm-playground</a></td>
         <td>2019-08-20 23:05:46</td> <td>2019-08-21 22:51:54</td> <td style="text-align:center">13</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">905</td>
+        <td style="text-align:center">927</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/pybraingym">pybraingym</a></td>
@@ -436,7 +436,7 @@ App Drawer for Android
         <td><a href="https://github.com/anetczuk/qt-test-utils">qt-test-utils</a></td>
         <td>2019-04-28 22:06:29</td> <td>2019-08-10 21:09:22</td> <td style="text-align:center">99</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">2642</td>
+        <td style="text-align:center">2508</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/thunderbird-webmail">thunderbird-webmail</a></td>
@@ -448,7 +448,7 @@ App Drawer for Android
         <td><a href="https://github.com/anetczuk/MemoryMap">MemoryMap</a></td>
         <td>2018-03-08 03:06:44</td> <td>2018-04-13 23:28:52</td> <td style="text-align:center">139</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">6239</td>
+        <td style="text-align:center">6251</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/DistributedSort">DistributedSort</a></td>
@@ -508,7 +508,7 @@ App Drawer for Android
 </tbody>
 <tfoot> <tr>
       <th id="total" colspan="3" style="text-align:right">Total:</th>
-      <th style="text-align:center">2644</th>
-      <th style="text-align:center">136</th>
-      <th style="text-align:center">93090</th>
+      <th style="text-align:center">2646</th>
+      <th style="text-align:center">138</th>
+      <th style="text-align:center">93680</th>
 </tr> </tfoot></table>

@@ -6,6 +6,8 @@ Account site hosted by GitHub Pages. Webpage is available at https://anetczuk.gi
 ## requirements
 
 - `pandas` (`pip3 install pandas`)
+- `requests_file` (`pip3 install requests_file`)
+- `cloc` (`sudo apt install cloc`)
 - `bundler` (`sudo apt install bundler`)
 
 
