@@ -91,6 +91,8 @@ def generate_description( configDict, dataMatrix, outputDir ):
 
     output_content += \
 """---
+layout: default
+home: true
 ---
 
 %(file_preamble_info)s
@@ -183,6 +185,7 @@ Following page presents list of published repositories divided into few categori
     output_content += """<table class="sortable">\n"""
     output_content += """<thead> <tr>
     <th>Repository</th>
+    <th>Create date</th>
     <th>Last commit</th>
     <th style="text-align:center">Commits</th>
     <th style="text-align:center">Stars</th>
@@ -196,14 +199,16 @@ Following page presents list of published repositories divided into few categori
         commits = row[ "commits" ]
         stars = row[ "stars" ]
         locs = row[ "loc" ]
+        createDate = row[ "create_date" ]
+        createDate = datetime.datetime.strptime( createDate, "%Y-%m-%dT%H:%M:%SZ" )
         pushDate = row[ "push_date" ]
         pushDate = datetime.datetime.strptime( pushDate, "%Y-%m-%dT%H:%M:%SZ" )
         output_content += """<tr>
         <td><a href="{1}/{0}">{0}</a></td>
-        <td>{2}</td> <td style="text-align:center">{3}</td>
-        <td style="text-align:center">{4}</td>
+        <td>{2}</td> <td>{3}</td> <td style="text-align:center">{4}</td>
         <td style="text-align:center">{5}</td>
-</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, pushDate, commits, stars, locs )
+        <td style="text-align:center">{6}</td>
+</tr>\n""".format( row[ "name" ], GITHUB_PROFILE_LINK, createDate, pushDate, commits, stars, locs )
         if len(commits) > 0:
             commits_sum += int( commits )
         if len(stars) > 0:
@@ -212,7 +217,7 @@ Following page presents list of published repositories divided into few categori
             loc_sum += int( locs )
     output_content += """\n</tbody>\n"""
     output_content += """<tfoot> <tr>
-      <th id="total" colspan="2" style="text-align:right">Total:</th>
+      <th id="total" colspan="3" style="text-align:right">Total:</th>
       <th style="text-align:center">{}</th>
       <th style="text-align:center">{}</th>
       <th style="text-align:center">{}</th>

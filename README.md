@@ -3,6 +3,14 @@
 Account site hosted by GitHub Pages. Webpage is available at https://anetczuk.github.io/
 
 
+## requirements
+
+- `pandas` (`pip3 install pandas`)
+- `requests_file` (`pip3 install requests_file`)
+- `cloc` (`sudo apt install cloc`)
+- `bundler` (`sudo apt install bundler`)
+
+
 ## previewing locally
 
 To preview site locally run script `./tools/startlocal.sh`. Local build will be ready at http://127.0.0.1:4000/ Before first run it is required to
