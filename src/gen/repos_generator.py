@@ -87,7 +87,7 @@ def generate_description( configDict, dataMatrix, outputDir ):
 
     ### === file header ===
     input_file  = configDict[ "input_file" ]
-    output_name = "repositories.md"
+    output_name = "repos.md"
 
     output_content += \
 """---
