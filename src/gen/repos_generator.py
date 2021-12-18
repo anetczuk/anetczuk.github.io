@@ -154,11 +154,20 @@ Following page presents list of published repositories divided into few categori
                 output_content += """\n"""
                 continue
     
-            item_categories = row['category']
+            ## item_categories = row['category']
             item_summary    = row['summary']
             item_stars      = row.get( "stars", 0 )
             item_commits    = row.get( "commits", 0 )
-            item_loc        = row.get( "loc", 0 )
+            item_loc        = row.get( "loc", "" )
+            
+            if item_loc == "":
+                item_loc = 0
+            else:
+                item_loc = int( item_loc )
+            
+            if cat == "Fork":
+                ## do not put LOC for Forks
+                item_loc = 0
             
             commits_entry = ""
             if len( item_commits ) > 0:
@@ -169,7 +178,7 @@ Following page presents list of published repositories divided into few categori
                 stars_entry = """<br/>\nstars: {0}""".format( item_stars )
             
             loc_entry = ""
-            if len( item_loc ) > 0:
+            if item_loc > 0:
                 loc_entry = """<br/>\nlines of code: {0}""".format( item_loc )
 
             output_content += """[{0}]({1}/{0})<br/>\n{2}{3}{4}{5}\n\n""".format( item_name, GITHUB_PROFILE_LINK, item_summary, commits_entry, stars_entry, loc_entry )

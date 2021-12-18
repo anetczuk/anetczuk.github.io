@@ -18,7 +18,7 @@
 ,Data:,,,,,,,
 ,name,category,summary,create_date,push_date,stars,commits,loc
 ,ADiKtEd,Fork,Advanced level editor for Dungeon Keeper 1,2021-06-09T21:37:07Z,2021-08-30T19:28:18Z,,11,
-,anetczuk.github.io,Other,Webpage repository,2018-06-13T18:26:01Z,2021-11-11T23:22:37Z,,21,4295
+,anetczuk.github.io,Other,Webpage repository,2018-06-13T18:26:01Z,2021-11-25T21:55:50Z,,21,4295
 ,AppDrawer,Fork,App Drawer for Android,2019-12-15T19:44:05Z,2016-07-20T03:35:37Z,,,
 ,BluetoothGattMitm,Python;Hardware related,Revealing unknown GATT/BLE protocol by mediation in communication between device and client,2018-09-29T20:11:24Z,2020-05-27T11:35:59Z,7,36,2100
 ,boost_utf_dependency,C++,Boost Unit Test automatic registration facility for dependencies between tests.,2013-03-20T18:54:59Z,2013-04-06T13:34:16Z,,13,1979
@@ -29,7 +29,7 @@
 ,hanlendar,Python;Qt,"Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.",2020-07-22T19:26:16Z,2021-03-18T20:22:56Z,,260,7608
 ,image-drawer-2d,C++,Draw 2D shapes and store it as image in lightweight manner.,2019-10-21T23:41:29Z,2020-01-03T23:38:22Z,,73,3202
 ,ImageProcessingService,C++,Example of image processing using OpenCV primitives,2017-12-08T21:03:21Z,2017-12-08T22:20:16Z,,8,1009
-,LinakDeskApp,Python;Qt,Desktop application that allows control of Linak office desk under Linux,2018-09-10T22:43:05Z,2021-11-08T00:23:53Z,101,235,5184
+,LinakDeskApp,Python;Qt,Desktop application that allows control of Linak office desk under Linux,2018-09-10T22:43:05Z,2021-11-08T00:23:53Z,102,235,5184
 ,linak_bt_desk,Python;Fork,Library that facilitates controlling Linak tables over Bluetooth,2018-07-27T21:52:13Z,2020-05-31T21:14:36Z,12,56,
 ,little-ted,Python;Qt,Little Text Editor with disabled keyboard shortcuts to enjoy key pressing madness,2020-04-13T21:35:56Z,2020-04-13T21:59:24Z,,18,690
 ,MemoryMap,C,Implementation of red-black tree in form of memory map,2018-03-08T03:06:44Z,2018-04-13T23:28:52Z,,139,6251
@@ -44,8 +44,8 @@
 ,ros-self-balancer-playground,Python;ROS,Two wheeled balancing robot playground with ROS and Gazebo,2019-08-01T22:45:44Z,2021-05-19T20:27:16Z,5,71,3101
 ,rsscast,Python;Qt,Convert YouTube videos feed to mp3 podcast RSS.,2021-02-07T20:00:00Z,2021-11-05T23:46:20Z,,80,4326
 ,SpiSlave,Python;Hardware related,Software implementation of SPI slave mode for Raspberry Pi,2018-02-24T21:12:03Z,2018-02-24T22:48:04Z,1,24,748
-,stock-monitor,Python;Qt,Aggregates stock exchange data from several sources in one place.,2020-10-13T22:38:09Z,2021-11-07T23:24:10Z,,415,14415
-,thunderbird-webmail,Fork,Migrate WebMail extension to Thunderbird 60.,2018-12-23T23:13:11Z,2018-12-29T21:50:44Z,,42,
+,stock-monitor,Python;Qt,Aggregates stock exchange data from several sources in one place.,2020-10-13T22:38:09Z,2021-12-03T21:03:32Z,,420,14544
+,thunderbird-webmail,Fork,Migrate WebMail extension to Thunderbird 60.,2018-12-23T23:13:11Z,2018-12-29T21:50:44Z,,42,57039
 ,WebSlideshow,Python,Play images slideshow directly from popular web galleries.,2017-03-09T21:59:21Z,2017-04-06T21:36:12Z,,38,741
 ,WebToPDF,Python,Convert any webpage to PDF in two steps,2017-12-09T20:07:36Z,2017-12-13T00:02:46Z,,16,645
 ,work-log,Python,Track time of your work sessions.,2021-09-29T21:57:31Z,2021-09-29T22:10:37Z,,74,4235
