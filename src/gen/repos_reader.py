@@ -67,8 +67,9 @@ def read_repositories():
             contribData = json.loads( contribJson.text )
              
             if contribJson.status_code != 200:
-                print( "data:", contribData )
-                _LOGGER.error( "message: %s status: %s", contribData["message"], contribJson.status_code )
+                print( "data:", contribData, "raw:", contribJson )
+                mess = contribData.get( "message" , "<no message field>")
+                _LOGGER.error( "message: %s status: %s", mess, contribJson.status_code )
                 return
              
             for commiterData in contribData:
