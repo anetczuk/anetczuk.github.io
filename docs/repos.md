@@ -98,6 +98,11 @@ lines of code: 748
 
 ### <a name="cat_python"></a> Python
 
+[rllib-exercises](https://github.com/anetczuk/rllib-exercises)<br/>
+Exercises with RLlib -- an industry-grade library for reinforcement learning (RL)<br/>
+commits: 18<br/>
+lines of code: 883
+
 [stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
 Aggregates stock exchange data from several sources in one place.<br/>
 commits: 420<br/>
@@ -201,6 +206,11 @@ lines of code: 741
 
 ### <a name="cat_reinforcement_learning"></a> Reinforcement learning
 
+[rllib-exercises](https://github.com/anetczuk/rllib-exercises)<br/>
+Exercises with RLlib -- an industry-grade library for reinforcement learning (RL)<br/>
+commits: 18<br/>
+lines of code: 883
+
 [pybrain-exercises](https://github.com/anetczuk/pybrain-exercises)<br/>
 Exercises with pybrain -- Python machine learning library<br/>
 commits: 23<br/>
@@ -272,8 +282,8 @@ lines of code: 2508
 
 [anetczuk.github.io](https://github.com/anetczuk/anetczuk.github.io)<br/>
 Webpage repository<br/>
-commits: 21<br/>
-lines of code: 4295
+commits: 29<br/>
+lines of code: 4330
 
 ### <a name="cat_fork"></a> Fork
 
@@ -313,6 +323,12 @@ App Drawer for Android
 </tr> </thead>
 <tbody>
 <tr>
+        <td><a href="https://github.com/anetczuk/rllib-exercises">rllib-exercises</a></td>
+        <td>2021-12-19 22:26:23</td> <td>2021-12-21 00:21:46</td> <td style="text-align:center">18</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">883</td>
+</tr>
+<tr>
         <td><a href="https://github.com/anetczuk/stock-monitor">stock-monitor</a></td>
         <td>2020-10-13 22:38:09</td> <td>2021-12-03 21:03:32</td> <td style="text-align:center">420</td>
         <td style="text-align:center"></td>
@@ -320,9 +336,9 @@ App Drawer for Android
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
-        <td>2018-06-13 18:26:01</td> <td>2021-11-25 21:55:50</td> <td style="text-align:center">21</td>
+        <td>2018-06-13 18:26:01</td> <td>2021-11-25 21:55:50</td> <td style="text-align:center">29</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">4295</td>
+        <td style="text-align:center">4330</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/LinakDeskApp">LinakDeskApp</a></td>
@@ -508,7 +524,7 @@ App Drawer for Android
 </tbody>
 <tfoot> <tr>
       <th id="total" colspan="3" style="text-align:right">Total:</th>
-      <th style="text-align:center">2651</th>
+      <th style="text-align:center">2677</th>
       <th style="text-align:center">139</th>
-      <th style="text-align:center">150848</th>
+      <th style="text-align:center">151766</th>
 </tr> </tfoot></table>
