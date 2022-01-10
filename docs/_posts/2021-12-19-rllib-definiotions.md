@@ -15,13 +15,17 @@ RLlib allows to configure execution of it's algorithms using plenty of configura
 
 - *rollout* -- sequence of state and action. During training, length of rollout is controlled by `batch_mode` and `rollout_fragment_length`. 
 
-- *epoch* -- one propagation and update of weights through neural network. In broader context can be treated as single iteration of training or evaluation phase.
+- *epoch / iteration* -- one propagation and update of weights through neural network. In broader context can be treated as single iteration of training or evaluation phase.
 
 - *timestep* -- single step executed on environment. Multiple timesteps make up the episode.
 
 - *training* -- execution of single epoch with learning phase.
 
 - *evaluation* -- execution of single epoch without learning phase.
+
+- *exploration* -- performing suboptimal actions in terms of policy to find better solutions.
+  
+- *exploitation* -- performing optimal actions in terms of policy -- opposite to *exploration*.
 
 - *metrics* -- agregated values describing quality of training phase. Basic result metrics are `episode_reward_max`, `episode_reward_mean` and `episode_reward_min`. Number of *metrics* samples is controlled by `metrics_num_episodes_for_smoothing` variable. Value '1' means not to perform aggregation of rewards from previous traininig iterations.
 
