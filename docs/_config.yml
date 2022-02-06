@@ -28,6 +28,10 @@ lang: en
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
+
+google_analytics: G-D7088J55NB
+
+
 ##############
 # APPEREANCE #
 ##############
