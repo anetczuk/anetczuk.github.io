@@ -1,6 +1,7 @@
 ---
 layout: default
 home: true
+allow_comments: true
 ---
 
 [comment]: #

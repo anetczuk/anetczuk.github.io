@@ -23,7 +23,13 @@
 				}
 	  	});
 	  </script>
+    	
+      {% if site.commentbox_id and page.allow_comments %}
+      {% include commentbox.html %}
+      {% endif %}
+
 	</div>
+	
 	{% include footer.html %}
 </body>
 </html>

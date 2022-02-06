@@ -93,6 +93,7 @@ def generate_description( configDict, dataMatrix, outputDir ):
 """---
 layout: default
 home: true
+allow_comments: true
 ---
 
 %(file_preamble_info)s
