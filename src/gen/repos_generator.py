@@ -16,6 +16,8 @@ SCRIPT_DIR = os.path.dirname(__file__)      ## full path to script's directory
 
 GITHUB_PROFILE_LINK = "https://github.com/anetczuk"
 
+SUBFIELD_SEPARATOR = "|"
+
 
 # ====================================================================
 # ====================================================================
@@ -77,7 +79,7 @@ def generate_description( configDict, dataMatrix, outputDir ):
         item_categories = item_categories.strip()
         if len(item_categories) < 1:
             continue
-        categories = item_categories.split(";")
+        categories = item_categories.split( SUBFIELD_SEPARATOR )
         categoriesMap.addKeys( categories, row )
     
 #     print( "found categories:", categoriesMap.data )
@@ -112,9 +114,9 @@ Following page presents list of published repositories divided into few categori
     ### === file content ===
 
     category_order_first = configDict[ "category_order_first" ]
-    category_order_first = category_order_first.split(";")
+    category_order_first = category_order_first.split( SUBFIELD_SEPARATOR )
     category_order_last  = configDict[ "category_order_last" ]
-    category_order_last  = category_order_last.split(";")
+    category_order_last  = category_order_last.split( SUBFIELD_SEPARATOR )
     
     categoriesList = categoriesMap.keys()
     categoriesList.sort()
