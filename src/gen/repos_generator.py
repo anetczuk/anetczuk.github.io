@@ -57,7 +57,7 @@ def generate():
     # print( "config:", configDict )
     # print( "data:", dataMatrix )
     
-    outputDir = os.path.join( SCRIPT_DIR, "..", "..", "docs" )
+    outputDir = os.path.join( SCRIPT_DIR, os.pardir, os.pardir, "docs" )
     generate_description( configDict, dataMatrix, outputDir )
 
 
@@ -150,6 +150,10 @@ Following page presents list of published repositories divided into few categori
         if items is None or len(items) < 1:
             continue
         
+        category_loc = 0
+        category_commits = 0
+        category_stars = 0
+        
         for row in items:
             item_name       = row['name']
             
@@ -172,19 +176,38 @@ Following page presents list of published repositories divided into few categori
                 ## do not put LOC for Forks
                 item_loc = 0
             
-            commits_entry = ""
             if len( item_commits ) > 0:
-                commits_entry = """<br/>\ncommits: {0}""".format( item_commits )
+                item_commits = int( item_commits )
+            else:
+                item_commits = 0
             
-            stars_entry = ""
             if len( item_stars ) > 0:
-                stars_entry = """<br/>\nstars: {0}""".format( item_stars )
+                item_stars = int( item_stars )
+            else:
+                item_stars = 0
             
+            commits_entry = ""
+            if item_commits > 0:
+                commits_entry = """<br/>\ncommits: {0}""".format( item_commits )
+            stars_entry = ""
+            if item_stars > 0:
+                stars_entry = """<br/>\nstars: {0}""".format( item_stars )           
             loc_entry = ""
             if item_loc > 0:
                 loc_entry = """<br/>\nlines of code: {0}""".format( item_loc )
 
             output_content += """[{0}]({1}/{0})<br/>\n{2}{3}{4}{5}\n\n""".format( item_name, GITHUB_PROFILE_LINK, item_summary, commits_entry, stars_entry, loc_entry )
+            
+            category_commits += item_commits
+            category_loc     += item_loc
+            category_stars   += item_stars
+
+        output_content += "<br/>\nCategory summary:\n"
+        output_content += "<br/>\nprojects: %s" % len(items)
+        output_content += "<br/>\ncommits: %s" % category_commits
+        output_content += "<br/>\nlines of code: %s" % category_loc
+        output_content += "<br/>\nstars: %s" % category_stars
+        output_content += "\n\n"
 
     output_content += "\n\n"
 
