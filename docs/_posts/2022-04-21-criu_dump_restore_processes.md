@@ -1,7 +1,7 @@
 ---
 title: Dumping and restoring Unix processes
 
-summary: Basic use case of CRIU tool 
+summary: Basic use case of CRIU tool.
 ---
 
 Let's say there is application with complex internal state. Let's say there is a 
