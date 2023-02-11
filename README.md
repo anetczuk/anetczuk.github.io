@@ -20,7 +20,7 @@ initialize build by `./tools/initbundle.sh`.
 ## generating data
 
 To generate descriptions of repositories execute `./src/gen/repos_generator.sh`. 
-Moreover information about repos can be grabbed by script `./src/gen/repos_reader.sh`.
+Moreover information about repos can be grabbed by script `./src/gen/github_reader.sh`.
 
 Generation of fav icons is done by script `./src/logo/generate_icons.sh`.
 
