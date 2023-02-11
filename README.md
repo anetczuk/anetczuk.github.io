@@ -13,7 +13,7 @@ Account site hosted by GitHub Pages. Webpage is available at https://anetczuk.gi
 
 ## previewing locally
 
-To preview site locally run script `./tools/startlocal.sh`. Local build will be ready at http://127.0.0.1:4000/ Before first run it is required to
+To preview site locally run script `./tools/startlocal.sh`. Local build will be ready at `http://127.0.0.1:4000/` Before first run it is required to
 initialize build by `./tools/initbundle.sh`.
 
 
