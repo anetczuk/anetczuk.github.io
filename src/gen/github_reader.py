@@ -54,6 +54,7 @@ def read_repositories():
 
     ## resp_status = response[0]
     repos_data = response[1]
+    repos_data.sort(key=lambda d: d['created_at']) 
 
     repos_data_path = os.path.join( CACHE_DIR, "repos_data.txt" )
     with open( repos_data_path, 'w' ) as repos_file:
