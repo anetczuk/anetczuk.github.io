@@ -125,6 +125,33 @@ stars: 16
 
 ### <a name="cat_python"></a> Python
 
+[ros-diagram-tools](https://github.com/anetczuk/ros-diagram-tools)<br/>
+Generate various aspects of ROS workspace in form of diagrams.<br/>
+commits: 304<br/>
+stars: 5<br/>
+lines of code: 4872
+
+[gdtype-python](https://github.com/anetczuk/gdtype-python)<br/>
+Serialize and deserialize Godot's GDScript types in Python<br/>
+commits: 70<br/>
+stars: 3<br/>
+lines of code: 1907
+
+[linak_bt_desk](https://github.com/anetczuk/linak_bt_desk)<br/>
+Library that facilitates controlling Linak tables over Bluetooth<br/>
+commits: 57<br/>
+stars: 14
+
+[xodr-py](https://github.com/anetczuk/xodr-py)<br/>
+XODR with logic for Python<br/>
+commits: 29<br/>
+lines of code: 2975
+
+[gdscript-protocol-generator](https://github.com/anetczuk/gdscript-protocol-generator)<br/>
+Generate abstract communication protocol between GDScript and Python in form of message handling class.<br/>
+commits: 22<br/>
+lines of code: 387
+
 [cpp-include-graph](https://github.com/anetczuk/cpp-include-graph)<br/>
 generate headers include tree of whole C++ project in form of GraphViz graphs<br/>
 commits: 35<br/>
@@ -135,36 +162,31 @@ draw data relations in form of graph structure<br/>
 commits: 20<br/>
 lines of code: 1157
 
-[ros-diagram-tools](https://github.com/anetczuk/ros-diagram-tools)<br/>
-Generate various aspects of ROS workspace in form of diagrams.<br/>
-commits: 245<br/>
-lines of code: 3890
+[stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
+Aggregates stock exchange data from several sources in one place.<br/>
+commits: 586<br/>
+lines of code: 17862
 
-[xodr-py](https://github.com/anetczuk/xodr-py)<br/>
-XODR with logic for Python<br/>
-commits: 29<br/>
-lines of code: 2975
+[ClevoKeyboardControl](https://github.com/anetczuk/ClevoKeyboardControl)<br/>
+Control Your Clevo keyboard backlight through GUI application using tuxedo driver<br/>
+commits: 73<br/>
+stars: 11<br/>
+lines of code: 2372
 
-[gdtype-python](https://github.com/anetczuk/gdtype-python)<br/>
-Serialize and deserialize Godot's GDScript types in Python<br/>
-commits: 70<br/>
-stars: 2<br/>
-lines of code: 1907
+[work-log](https://github.com/anetczuk/work-log)<br/>
+Track time of your work sessions.<br/>
+commits: 77<br/>
+lines of code: 4238
 
-[gdscript-protocol-generator](https://github.com/anetczuk/gdscript-protocol-generator)<br/>
-Generate abstract communication protocol between GDScript and Python in form of message handling class.<br/>
-commits: 22<br/>
-lines of code: 387
+[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
+Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
+commits: 266<br/>
+lines of code: 7959
 
 [rsscast](https://github.com/anetczuk/rsscast)<br/>
 Convert YouTube videos feed to mp3 podcast RSS.<br/>
 commits: 98<br/>
 lines of code: 4587
-
-[stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
-Aggregates stock exchange data from several sources in one place.<br/>
-commits: 586<br/>
-lines of code: 17862
 
 [ReverseCRC](https://github.com/anetczuk/ReverseCRC)<br/>
 Finding polynomial, init and xor values of CRC.<br/>
@@ -177,17 +199,6 @@ Rebuild corrupted or empty *feeds.json* by recovering data based on other files 
 commits: 13<br/>
 stars: 1<br/>
 lines of code: 429
-
-[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
-Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
-commits: 266<br/>
-lines of code: 7959
-
-[ClevoKeyboardControl](https://github.com/anetczuk/ClevoKeyboardControl)<br/>
-Control Your Clevo keyboard backlight through GUI application using tuxedo driver<br/>
-commits: 73<br/>
-stars: 11<br/>
-lines of code: 2372
 
 [rllib-exercises](https://github.com/anetczuk/rllib-exercises)<br/>
 Exercises with RLlib -- an industry-grade library for reinforcement learning (RL)<br/>
@@ -205,21 +216,11 @@ Exercises with pybrain -- Python machine learning library<br/>
 commits: 23<br/>
 lines of code: 1354
 
-[work-log](https://github.com/anetczuk/work-log)<br/>
-Track time of your work sessions.<br/>
-commits: 77<br/>
-lines of code: 4238
-
 [ros-self-balancer-playground](https://github.com/anetczuk/ros-self-balancer-playground)<br/>
 Two wheeled balancing robot playground with ROS and Gazebo<br/>
 commits: 71<br/>
 stars: 9<br/>
 lines of code: 3101
-
-[linak_bt_desk](https://github.com/anetczuk/linak_bt_desk)<br/>
-Library that facilitates controlling Linak tables over Bluetooth<br/>
-commits: 57<br/>
-stars: 14
 
 [BluetoothGattMitm](https://github.com/anetczuk/BluetoothGattMitm)<br/>
 Revealing unknown GATT/BLE protocol by mediation in communication between device and client<br/>
@@ -272,9 +273,9 @@ lines of code: 741
 Category summary:
 <br/>
 projects: 27<br/>
-commits: 2370<br/>
-lines of code: 74833<br/>
-stars: 187
+commits: 2429<br/>
+lines of code: 75815<br/>
+stars: 193
 
 ### <a name="cat_reinforcement_learning"></a> Reinforcement learning
 
@@ -310,8 +311,9 @@ stars: 0
 
 [ros-diagram-tools](https://github.com/anetczuk/ros-diagram-tools)<br/>
 Generate various aspects of ROS workspace in form of diagrams.<br/>
-commits: 245<br/>
-lines of code: 3890
+commits: 304<br/>
+stars: 5<br/>
+lines of code: 4872
 
 [ros-self-balancer-playground](https://github.com/anetczuk/ros-self-balancer-playground)<br/>
 Two wheeled balancing robot playground with ROS and Gazebo<br/>
@@ -328,32 +330,32 @@ lines of code: 927
 Category summary:
 <br/>
 projects: 3<br/>
-commits: 329<br/>
-lines of code: 7918<br/>
-stars: 9
+commits: 388<br/>
+lines of code: 8900<br/>
+stars: 14
 
 ### <a name="cat_qt"></a> Qt
-
-[rsscast](https://github.com/anetczuk/rsscast)<br/>
-Convert YouTube videos feed to mp3 podcast RSS.<br/>
-commits: 98<br/>
-lines of code: 4587
 
 [stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
 Aggregates stock exchange data from several sources in one place.<br/>
 commits: 586<br/>
 lines of code: 17862
 
-[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
-Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
-commits: 266<br/>
-lines of code: 7959
-
 [ClevoKeyboardControl](https://github.com/anetczuk/ClevoKeyboardControl)<br/>
 Control Your Clevo keyboard backlight through GUI application using tuxedo driver<br/>
 commits: 73<br/>
 stars: 11<br/>
 lines of code: 2372
+
+[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
+Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
+commits: 266<br/>
+lines of code: 7959
+
+[rsscast](https://github.com/anetczuk/rsscast)<br/>
+Convert YouTube videos feed to mp3 podcast RSS.<br/>
+commits: 98<br/>
+lines of code: 4587
 
 [LinakDeskApp](https://github.com/anetczuk/LinakDeskApp)<br/>
 Desktop application that allows control of Linak office desk under Linux<br/>
@@ -383,18 +385,23 @@ stars: 146
 
 [anetczuk.github.io](https://github.com/anetczuk/anetczuk.github.io)<br/>
 Webpage repository<br/>
-commits: 50<br/>
-lines of code: 6167
+commits: 52<br/>
+lines of code: 6189
 
 <br/>
 Category summary:
 <br/>
 projects: 1<br/>
-commits: 50<br/>
-lines of code: 6167<br/>
+commits: 52<br/>
+lines of code: 6189<br/>
 stars: 0
 
 ### <a name="cat_fork"></a> Fork
+
+[linak_bt_desk](https://github.com/anetczuk/linak_bt_desk)<br/>
+Library that facilitates controlling Linak tables over Bluetooth<br/>
+commits: 57<br/>
+stars: 14
 
 [pybrain](https://github.com/anetczuk/pybrain)<br/>
 PyBrain -- the Python Machine Learning Library<br/>
@@ -403,11 +410,6 @@ commits: 12
 [ADiKtEd](https://github.com/anetczuk/ADiKtEd)<br/>
 Advanced level editor for Dungeon Keeper 1<br/>
 commits: 11
-
-[linak_bt_desk](https://github.com/anetczuk/linak_bt_desk)<br/>
-Library that facilitates controlling Linak tables over Bluetooth<br/>
-commits: 57<br/>
-stars: 14
 
 [thunderbird-webmail](https://github.com/anetczuk/thunderbird-webmail)<br/>
 Migrate WebMail extension to Thunderbird 60.<br/>
@@ -440,6 +442,42 @@ stars: 14
 </tr> </thead>
 <tbody>
 <tr>
+        <td><a href="https://github.com/anetczuk/ros-diagram-tools">ros-diagram-tools</a></td>
+        <td>2022-11-07 01:12:56</td> <td>2023-06-04 23:17:48</td> <td style="text-align:center">304</td>
+        <td style="text-align:center">5</td>
+        <td style="text-align:center">4872</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
+        <td>2018-06-13 18:26:01</td> <td>2023-05-13 23:04:18</td> <td style="text-align:center">52</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">6189</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/gdtype-python">gdtype-python</a></td>
+        <td>2022-09-25 23:11:14</td> <td>2023-05-13 22:25:58</td> <td style="text-align:center">70</td>
+        <td style="text-align:center">3</td>
+        <td style="text-align:center">1907</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/linak_bt_desk">linak_bt_desk</a></td>
+        <td>2018-07-27 21:52:13</td> <td>2023-05-12 19:58:12</td> <td style="text-align:center">57</td>
+        <td style="text-align:center">14</td>
+        <td style="text-align:center"></td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/xodr-py">xodr-py</a></td>
+        <td>2022-11-21 23:59:17</td> <td>2023-05-08 23:02:10</td> <td style="text-align:center">29</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">2975</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/gdscript-protocol-generator">gdscript-protocol-generator</a></td>
+        <td>2022-10-14 22:37:39</td> <td>2023-04-04 21:33:41</td> <td style="text-align:center">22</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">387</td>
+</tr>
+<tr>
         <td><a href="https://github.com/anetczuk/cpp-include-graph">cpp-include-graph</a></td>
         <td>2023-03-28 20:34:39</td> <td>2023-03-31 21:32:13</td> <td style="text-align:center">35</td>
         <td style="text-align:center"></td>
@@ -452,52 +490,40 @@ stars: 14
         <td style="text-align:center">1157</td>
 </tr>
 <tr>
-        <td><a href="https://github.com/anetczuk/ros-diagram-tools">ros-diagram-tools</a></td>
-        <td>2022-11-07 01:12:56</td> <td>2023-02-08 22:53:00</td> <td style="text-align:center">245</td>
+        <td><a href="https://github.com/anetczuk/stock-monitor">stock-monitor</a></td>
+        <td>2020-10-13 22:38:09</td> <td>2023-03-24 22:22:34</td> <td style="text-align:center">586</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">3890</td>
+        <td style="text-align:center">17862</td>
 </tr>
 <tr>
-        <td><a href="https://github.com/anetczuk/xodr-py">xodr-py</a></td>
-        <td>2022-11-21 23:59:17</td> <td>2023-01-29 21:34:22</td> <td style="text-align:center">29</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">2975</td>
+        <td><a href="https://github.com/anetczuk/ClevoKeyboardControl">ClevoKeyboardControl</a></td>
+        <td>2018-11-17 23:05:49</td> <td>2023-03-15 21:22:25</td> <td style="text-align:center">73</td>
+        <td style="text-align:center">11</td>
+        <td style="text-align:center">2372</td>
 </tr>
 <tr>
-        <td><a href="https://github.com/anetczuk/gdtype-python">gdtype-python</a></td>
-        <td>2022-09-25 23:11:14</td> <td>2023-01-26 22:11:36</td> <td style="text-align:center">70</td>
-        <td style="text-align:center">2</td>
-        <td style="text-align:center">1907</td>
+        <td><a href="https://github.com/anetczuk/work-log">work-log</a></td>
+        <td>2021-09-29 21:57:31</td> <td>2022-10-20 11:45:34</td> <td style="text-align:center">77</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">4238</td>
 </tr>
 <tr>
-        <td><a href="https://github.com/anetczuk/gdscript-protocol-generator">gdscript-protocol-generator</a></td>
-        <td>2022-10-14 22:37:39</td> <td>2023-01-26 21:33:03</td> <td style="text-align:center">22</td>
+        <td><a href="https://github.com/anetczuk/hanlendar">hanlendar</a></td>
+        <td>2020-07-22 19:26:16</td> <td>2022-05-28 22:14:23</td> <td style="text-align:center">266</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">387</td>
+        <td style="text-align:center">7959</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/rsscast">rsscast</a></td>
-        <td>2021-02-07 20:00:00</td> <td>2022-03-29 18:00:19</td> <td style="text-align:center">98</td>
+        <td>2021-02-07 20:00:00</td> <td>2022-05-11 21:42:37</td> <td style="text-align:center">98</td>
         <td style="text-align:center"></td>
         <td style="text-align:center">4587</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/stock-monitor">stock-monitor</a></td>
-        <td>2020-10-13 22:38:09</td> <td>2022-03-24 20:29:31</td> <td style="text-align:center">586</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">17862</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/ReverseCRC">ReverseCRC</a></td>
         <td>2017-12-25 20:54:15</td> <td>2022-02-08 23:02:56</td> <td style="text-align:center">179</td>
         <td style="text-align:center">3</td>
         <td style="text-align:center">6787</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
-        <td>2018-06-13 18:26:01</td> <td>2022-02-08 21:20:58</td> <td style="text-align:center">50</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">6167</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/thunderbird-feeds-recover">thunderbird-feeds-recover</a></td>
@@ -510,18 +536,6 @@ stars: 14
         <td>2021-07-21 23:10:54</td> <td>2022-01-06 22:08:12</td> <td style="text-align:center">477</td>
         <td style="text-align:center">2</td>
         <td style="text-align:center">16132</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/hanlendar">hanlendar</a></td>
-        <td>2020-07-22 19:26:16</td> <td>2021-12-24 21:49:14</td> <td style="text-align:center">266</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">7959</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/ClevoKeyboardControl">ClevoKeyboardControl</a></td>
-        <td>2018-11-17 23:05:49</td> <td>2021-12-24 21:30:32</td> <td style="text-align:center">73</td>
-        <td style="text-align:center">11</td>
-        <td style="text-align:center">2372</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/rllib-exercises">rllib-exercises</a></td>
@@ -548,12 +562,6 @@ stars: 14
         <td style="text-align:center">1354</td>
 </tr>
 <tr>
-        <td><a href="https://github.com/anetczuk/work-log">work-log</a></td>
-        <td>2021-09-29 21:57:31</td> <td>2021-09-29 22:10:37</td> <td style="text-align:center">77</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">4238</td>
-</tr>
-<tr>
         <td><a href="https://github.com/anetczuk/ADiKtEd">ADiKtEd</a></td>
         <td>2021-06-09 21:37:07</td> <td>2021-08-30 19:28:18</td> <td style="text-align:center">11</td>
         <td style="text-align:center"></td>
@@ -564,12 +572,6 @@ stars: 14
         <td>2019-08-01 22:45:44</td> <td>2021-05-19 20:27:16</td> <td style="text-align:center">71</td>
         <td style="text-align:center">9</td>
         <td style="text-align:center">3101</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/linak_bt_desk">linak_bt_desk</a></td>
-        <td>2018-07-27 21:52:13</td> <td>2020-05-31 21:14:36</td> <td style="text-align:center">57</td>
-        <td style="text-align:center">14</td>
-        <td style="text-align:center"></td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/BluetoothGattMitm">BluetoothGattMitm</a></td>
@@ -683,7 +685,7 @@ stars: 14
 </tbody>
 <tfoot> <tr>
       <th id="total" colspan="3" style="text-align:right">Total:</th>
-      <th style="text-align:center">3439</th>
-      <th style="text-align:center">190</th>
-      <th style="text-align:center">116023</th>
+      <th style="text-align:center">3500</th>
+      <th style="text-align:center">196</th>
+      <th style="text-align:center">117027</th>
 </tr> </tfoot></table>
