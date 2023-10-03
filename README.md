@@ -24,6 +24,11 @@ Moreover information about repos can be grabbed by script `./src/gen/github_read
 
 Generation of fav icons is done by script `./src/logo/generate_icons.sh`.
 
+To refresh information about repositories make following steps:
+1. run script `github_reader.sh`
+2. open dumped file and update information in repos description file (`repos_description.csv`)
+3. generate static pages using script `repos_generator.sh`
+
 
 ## theme
 
