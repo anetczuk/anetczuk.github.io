@@ -17,17 +17,17 @@ To preview site locally run script `./tools/startlocal.sh`. Local build will be 
 initialize build by `./tools/initbundle.sh`.
 
 
-## generating data
+## data generation
 
+Information about repos can be grabbed by script `./src/gen/github_reader.sh`.
 To generate descriptions of repositories execute `./src/gen/repos_generator.sh`. 
-Moreover information about repos can be grabbed by script `./src/gen/github_reader.sh`.
 
 Generation of fav icons is done by script `./src/logo/generate_icons.sh`.
 
 To refresh information about repositories make following steps:
 1. run script `github_reader.sh`
-2. open dumped file and update information in repos description file (`repos_description.csv`)
-3. generate static pages using script `repos_generator.sh`
+2. open dumped file (`tmp/github_repos.csv`) and update information in repos description file (`src/gen/repos_description.csv`)
+3. generate static pages using script `src/gen/repos_generator.sh`
 
 
 ## theme
