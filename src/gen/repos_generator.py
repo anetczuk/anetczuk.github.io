@@ -297,7 +297,7 @@ def file_preamble( input_file, line_comment ):
 
 
 def generator_name():
-    path = pathlib.Path( *pathlib.Path(__file__).parts[-4:] )
+    path = pathlib.Path( *pathlib.Path(__file__).parts[-3:] )
     return str(path)
 
 
