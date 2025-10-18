@@ -125,15 +125,31 @@ stars: 36
 
 ### <a name="cat_python"></a> Python
 
-[tree-page-generator](https://github.com/anetczuk/tree-page-generator)<br/>
-generate static pages containing tree hierarchies based on defined model<br/>
-commits: 30<br/>
-lines of code: 3817
+[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
+Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
+commits: 290<br/>
+stars: 4<br/>
+lines of code: 10004
+
+[rss-forward](https://github.com/anetczuk/rss-forward)<br/>
+Scrap online data and share it as RSS feed.<br/>
+commits: 87<br/>
+lines of code: 6135
 
 [rsscast](https://github.com/anetczuk/rsscast)<br/>
 Convert YouTube videos feed to mp3 podcast RSS.<br/>
-commits: 148<br/>
-lines of code: 53949
+commits: 151<br/>
+lines of code: 54045
+
+[lywsd03mmc-access](https://github.com/anetczuk/lywsd03mmc-access)<br/>
+access Xiaomi Mi Temperature and Humidity Monitor 2 (LYWSD03MMC) device<br/>
+commits: 10<br/>
+lines of code: 4152
+
+[tree-page-generator](https://github.com/anetczuk/tree-page-generator)<br/>
+generate static pages containing tree hierarchies based on defined model<br/>
+commits: 32<br/>
+lines of code: 3843
 
 [BluetoothGattMitm](https://github.com/anetczuk/BluetoothGattMitm)<br/>
 Revealing unknown GATT/BLE protocol by mediation in communication between device and client<br/>
@@ -169,11 +185,6 @@ commits: 76<br/>
 stars: 16<br/>
 lines of code: 2649
 
-[rss-forward](https://github.com/anetczuk/rss-forward)<br/>
-Scrap online data and share it as RSS feed.<br/>
-commits: 67<br/>
-lines of code: 4451
-
 [cloc-directory-tree](https://github.com/anetczuk/cloc-directory-tree)<br/>
 dump cloc data and navigate it as directory tree<br/>
 commits: 21<br/>
@@ -193,12 +204,6 @@ lines of code: 2224
 Verify if links and images in Markdown are valid.<br/>
 commits: 23<br/>
 lines of code: 1124
-
-[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
-Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
-commits: 288<br/>
-stars: 3<br/>
-lines of code: 8783
 
 [uncrustify-impact](https://github.com/anetczuk/uncrustify-impact)<br/>
 display uncrustify configuration impact on given source files<br/>
@@ -344,10 +349,10 @@ lines of code: 741
 <br/>
 Category summary:
 <br/>
-projects: 40<br/>
-commits: 3115<br/>
-lines of code: 232298<br/>
-stars: 242
+projects: 41<br/>
+commits: 3152<br/>
+lines of code: 239477<br/>
+stars: 243
 
 ### <a name="cat_reinforcement_learning"></a> Reinforcement learning
 
@@ -414,10 +419,16 @@ stars: 28
 
 ### <a name="cat_qt"></a> Qt
 
+[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
+Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
+commits: 290<br/>
+stars: 4<br/>
+lines of code: 10004
+
 [rsscast](https://github.com/anetczuk/rsscast)<br/>
 Convert YouTube videos feed to mp3 podcast RSS.<br/>
-commits: 148<br/>
-lines of code: 53949
+commits: 151<br/>
+lines of code: 54045
 
 [stock-monitor](https://github.com/anetczuk/stock-monitor)<br/>
 Aggregates stock exchange data from several sources in one place.<br/>
@@ -430,12 +441,6 @@ Control Your Clevo keyboard backlight through GUI application using tuxedo drive
 commits: 76<br/>
 stars: 16<br/>
 lines of code: 2649
-
-[hanlendar](https://github.com/anetczuk/hanlendar)<br/>
-Calendar and todo list in one application allowing to organize date related tasks, priority todos and simple notes.<br/>
-commits: 288<br/>
-stars: 3<br/>
-lines of code: 8783
 
 [LinakDeskApp](https://github.com/anetczuk/LinakDeskApp)<br/>
 Desktop application that allows control of Linak office desk under Linux<br/>
@@ -457,23 +462,23 @@ lines of code: 2508
 Category summary:
 <br/>
 projects: 7<br/>
-commits: 1479<br/>
-lines of code: 92534<br/>
-stars: 168
+commits: 1484<br/>
+lines of code: 93851<br/>
+stars: 169
 
 ### <a name="cat_other"></a> Other
 
 [anetczuk.github.io](https://github.com/anetczuk/anetczuk.github.io)<br/>
 Webpage repository<br/>
-commits: 55<br/>
-lines of code: 6321
+commits: 56<br/>
+lines of code: 6438
 
 <br/>
 Category summary:
 <br/>
 projects: 1<br/>
-commits: 55<br/>
-lines of code: 6321<br/>
+commits: 56<br/>
+lines of code: 6438<br/>
 stars: 0
 
 ### <a name="cat_fork"></a> Fork
@@ -531,16 +536,40 @@ stars: 19
 </tr> </thead>
 <tbody>
 <tr>
-        <td><a href="https://github.com/anetczuk/tree-page-generator">tree-page-generator</a></td>
-        <td>2025-08-04 21:54:51</td> <td>2025-08-28 23:28:33</td> <td style="text-align:center">30</td>
+        <td><a href="https://github.com/anetczuk/hanlendar">hanlendar</a></td>
+        <td>2020-07-22 19:26:16</td> <td>2025-10-16 21:28:33</td> <td style="text-align:center">290</td>
+        <td style="text-align:center">4</td>
+        <td style="text-align:center">10004</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/rss-forward">rss-forward</a></td>
+        <td>2023-11-28 22:28:12</td> <td>2025-10-16 20:04:31</td> <td style="text-align:center">87</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">3817</td>
+        <td style="text-align:center">6135</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/rsscast">rsscast</a></td>
-        <td>2021-02-07 20:00:00</td> <td>2025-06-27 22:54:21</td> <td style="text-align:center">148</td>
+        <td>2021-02-07 20:00:00</td> <td>2025-10-16 20:04:01</td> <td style="text-align:center">151</td>
         <td style="text-align:center"></td>
-        <td style="text-align:center">53949</td>
+        <td style="text-align:center">54045</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/lywsd03mmc-access">lywsd03mmc-access</a></td>
+        <td>2025-09-22 21:48:33</td> <td>2025-10-04 22:57:20</td> <td style="text-align:center">10</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">4152</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/tree-page-generator">tree-page-generator</a></td>
+        <td>2025-08-04 21:54:51</td> <td>2025-09-08 20:10:25</td> <td style="text-align:center">32</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">3843</td>
+</tr>
+<tr>
+        <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
+        <td>2018-06-13 18:26:01</td> <td>2025-08-29 20:16:40</td> <td style="text-align:center">56</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center">6438</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/BluetoothGattMitm">BluetoothGattMitm</a></td>
@@ -579,12 +608,6 @@ stars: 19
         <td style="text-align:center">2649</td>
 </tr>
 <tr>
-        <td><a href="https://github.com/anetczuk/rss-forward">rss-forward</a></td>
-        <td>2023-11-28 22:28:12</td> <td>2024-12-29 21:22:17</td> <td style="text-align:center">67</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">4451</td>
-</tr>
-<tr>
         <td><a href="https://github.com/anetczuk/cloc-directory-tree">cloc-directory-tree</a></td>
         <td>2024-10-19 20:39:50</td> <td>2024-10-25 20:21:57</td> <td style="text-align:center">21</td>
         <td style="text-align:center"></td>
@@ -607,12 +630,6 @@ stars: 19
         <td>2023-12-02 22:58:03</td> <td>2024-10-07 14:53:05</td> <td style="text-align:center">23</td>
         <td style="text-align:center"></td>
         <td style="text-align:center">1124</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/hanlendar">hanlendar</a></td>
-        <td>2020-07-22 19:26:16</td> <td>2024-10-06 00:00:24</td> <td style="text-align:center">288</td>
-        <td style="text-align:center">3</td>
-        <td style="text-align:center">8783</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/uncrustify-impact">uncrustify-impact</a></td>
@@ -643,12 +660,6 @@ stars: 19
         <td>2021-09-29 21:57:31</td> <td>2024-03-12 21:47:55</td> <td style="text-align:center">82</td>
         <td style="text-align:center"></td>
         <td style="text-align:center">7101</td>
-</tr>
-<tr>
-        <td><a href="https://github.com/anetczuk/anetczuk.github.io">anetczuk.github.io</a></td>
-        <td>2018-06-13 18:26:01</td> <td>2024-03-06 23:07:15</td> <td style="text-align:center">55</td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center">6321</td>
 </tr>
 <tr>
         <td><a href="https://github.com/anetczuk/clang-time-trace-analyzer">clang-time-trace-analyzer</a></td>
@@ -870,7 +881,7 @@ stars: 19
 </tbody>
 <tfoot> <tr>
       <th id="total" colspan="3" style="text-align:right">Total:</th>
-      <th style="text-align:center">4263</th>
-      <th style="text-align:center">265</th>
-      <th style="text-align:center">330681</th>
+      <th style="text-align:center">4301</th>
+      <th style="text-align:center">266</th>
+      <th style="text-align:center">337977</th>
 </tr> </tfoot></table>
