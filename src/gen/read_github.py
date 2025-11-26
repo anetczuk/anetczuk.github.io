@@ -100,9 +100,9 @@ def scrap_repo_info( repo_data ):
     repoName = repo_data["name"]
     
     category = ""
-    category = append_string( category, repo_data["language"], ";" )
+    category = append_string( category, repo_data["language"], "|" )
     if repo_data["fork"] is True:
-        category = append_string( category, "Fork", ";" )
+        category = append_string( category, "Fork", "|" )
 
     stars = repo_data["stargazers_count"]
     if stars < 1:
