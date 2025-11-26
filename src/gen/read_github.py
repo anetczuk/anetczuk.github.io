@@ -184,7 +184,7 @@ def count_lines( repoUrl ):
             _LOGGER.warning( "unable to clone repository: %s", repoUrl )
             return ""
         
-        cloc_command="""cloc --exclude-lang=HTML --exclude-dir=doc,lib,libs,external,build --json {0}""".format( tmpdirname )
+        cloc_command="""cloc --exclude-lang=HTML,JSON,XML --exclude-dir=doc,lib,libs,external,build --json {0}""".format( tmpdirname )
         clocResult = subprocess.run( cloc_command, shell=True, stdout=subprocess.PIPE )
         if clocResult.returncode != 0:
             _LOGGER.warning( "unable to cloc repository: %s", repoUrl )
