@@ -19,15 +19,15 @@ initialize build by `./tools/initbundle.sh`.
 
 ## data generation
 
-Information about repos can be grabbed by script `./src/gen/github_reader.sh`.
-To generate descriptions of repositories execute `./src/gen/repos_generator.sh`. 
+Information about repos can be grabbed by script `./src/gen/read_github.py`.
+To generate descriptions of repositories execute `./src/gen/generate_description.py`. 
 
 Generation of fav icons is done by script `./src/logo/generate_icons.sh`.
 
 To refresh information about repositories make following steps:
-1. run script `github_reader.sh`
+1. run script `src/gen/read_github.py`
 2. open dumped file (`tmp/github_repos.csv`) and update information in repos description file (`src/gen/repos_description.csv`)
-3. generate static pages using script `src/gen/repos_generator.sh`
+3. generate static pages using script `src/gen/generate_description.py`
 
 
 ## theme
